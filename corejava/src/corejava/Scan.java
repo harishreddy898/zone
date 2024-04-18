@@ -5,26 +5,28 @@ public class Scan {
 	public void m1() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your name");
-	    String name =sc.nextLine(); 
+	    String name =sc.next(); 
 		String hari="harish";
 	String abhi = "abhi";
 	String sri = "sritam";
 	String rat = "rati";
 	String gugu= "gudu";
-		if (name == hari) {
+		if (name.equals(hari)) {
 			System.out.println("next step");
 			
-		}else if (name == abhi) {
+		}else if (name.equals(abhi)) {
 			System.out.println("enter roll no");
-		}else if (name == sri) {
+		}else if (name.equals(sri)) {
 			System.out.println("enter roll no");
 			
-		}else if (name == rat) {
+		}else if (name.equals(rat)) {
 			System.out.println("enter roll no");
-		}else if (name == gugu) {
+		}else if (name.equals(gugu)) {
 			System.out.println("enter roll no");
-		}
+		}else {
+				System.out.println("invalid");
 	}
+	}		
 	public void m2() {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter your roll no");
